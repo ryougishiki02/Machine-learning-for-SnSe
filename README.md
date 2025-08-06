@@ -17,7 +17,7 @@ This repository supports the research article:
 
 - **`Atomic-Segmentation/`**:  
   A specific application for **SnSe phase analysis**, based on **angle measurements between Sn atoms**.  
-  > To use this module, copy the trained model file `U-Net/output/model.pth` to the `Atomic-Segmentation/` directory.
+  > To use this module, copy the trained model file `model/unet/unet5/segment/unet_0.001.pth` (https://github.com/ryougishiki02/AI-STEM/tree/main/model/unet/unet5/segment) to the `Atomic-Segmentation/` directory.
 
 ## Recommended Environment
 
@@ -43,7 +43,7 @@ You may use `conda` to install and manage these dependencies.
 
 ## More Information
 
-We will soon release a homepage with a complete set of **STEM image and video processing tools**, including:
+We also provide a complete set of **STEM image and video processing tools** (https://github.com/ryougishiki02/AI-STEM), including:
 
 - Background subtraction, denoising, elemental analysis, and atomic-level strain/stress analysis for **STEM images**  
 - Drift correction, frame sampling, and denoising for **STEM videos**
